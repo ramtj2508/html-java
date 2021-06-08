@@ -1,0 +1,46 @@
+.principal{
+    background-image: url("../img/1.jpg");
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.Productos
+{
+background: black;
+}
+/*MEDIA QUERY*/
+@media(min-width: 768px){
+    .principal{
+        background-image: url("../img/2.jpg");
+        background-size: cover;
+    }
+}
+
+.carousel-inner
+{
+    width: 60%;
+    max-height: 1000px;
+    
+}
+.caja
+    {
+    width: 33%;
+    height: 30%;
+    padding: 2px;
+    float: left; 
+    box-sizing: border-box; 
+    background-color: rgb(51, 34, 23);
+    color: wheat;
+    }
+.caja2{border:whitesmoke solid 3px; align-content: center; clear: both;}
+#btn{font-size: x-large; }
+.precio{color: wheat;}
+.caja3
+{  
+width: 25%;
+padding: 2px;
+float: left; 
+box-sizing: border-box; 
+}
+.img1{max-width: 70%;}
